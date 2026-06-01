@@ -6,7 +6,11 @@ export const metadata: Metadata = {
   description: 'Descubre fiestas patronales, eventos públicos y privados cerca de ti'
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="es">
       <body className="bg-gray-50">{children}</body>
